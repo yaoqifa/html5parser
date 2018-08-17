@@ -81,6 +81,8 @@ export const checkHtml = (html) => {
     }
     return res
   }
-
+  if (!stack.isEmpty()) {
+    return 1
+  }
   return 0
 }
