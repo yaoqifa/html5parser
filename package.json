@@ -1,0 +1,19 @@
+{
+  "name": "html5parser",
+  "version": "1.0.0",
+  "description": "a html5 parser",
+  "main": "html5parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaoqifa/html5parser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaoqifa/html5parser/issues"
+  },
+  "homepage": "https://github.com/yaoqifa/html5parser#readme"
+}

@@ -1,4 +1,4 @@
-import { Stack } from './stack.js'
+import { Stack } from './stack'
 
 export const checkHtml = (html) => {
   const stack = new Stack()
