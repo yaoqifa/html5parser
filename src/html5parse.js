@@ -28,6 +28,9 @@ export const checkHtml = (html) => {
       }
       // 匹配开始的结束标签
       if (end) {
+        if (end[0].trim() === '/>') {
+          stack.pop()
+        }
         advance(end[0].length)
       } else {
         return 1
